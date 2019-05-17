@@ -1,7 +1,7 @@
 import * as changeCase from 'change-case';
 
-const isArray = (value: any) => !!value && (value.constructor === Array);
-const isObject = (value: any) => !!value && (value.constructor === Object);
+export const isArray = (value: any) => !!value && (value.constructor === Array);
+export const isObject = (value: any) => !!value && (value.constructor === Object);
 type KeyCase = 'camelCase' | 'camel' | 'constant' | 'dot' | 'header' | 'isLower' |
   'isUpper' | 'lower' | 'lcFirst' | 'no' | 'param' | 'pascal' | 'path' | 'sentence' |
   'snake' | 'swap' | 'title' | 'upper' | 'ucFirst';
