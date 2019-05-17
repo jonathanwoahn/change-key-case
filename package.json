@@ -1,5 +1,5 @@
 {
-  "name": "npm-init",
+  "name": "recursive-change-key-case",
   "version": "1.0.0",
   "description": "Convert object keys to any other case, such as camelCase, snake_case, etc.",
   "main": "src/index.ts",

@@ -1,6 +1,6 @@
 # Description
-Utility used to change the case of keys in an object to any other case. Performs a deep clone of the object, handling
-nested objects and arrays
+Utility used to change the case of keys in an object to any other case. Performs a deep modification of the original object, changing
+the keys of all nested objects, arrays, and objects within arrays
 
 # Install
 ```
