@@ -1,7 +1,7 @@
 {
   "name": "npm-init",
   "version": "1.0.0",
-  "description": "Utility to perform deep change case of keys in an object",
+  "description": "Convert object keys to any other case, such as camelCase, snake_case, etc.",
   "main": "src/index.ts",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts"

@@ -8,7 +8,7 @@ npm i change-key-case
 ```
 
 # Usage
-Utilizes the (Change Case library)[https://github.com/blakeembrey/change-case#readme]
+Utilizes the [Change Case library](https://github.com/blakeembrey/change-case#readme)
 
 ```javascript
 
