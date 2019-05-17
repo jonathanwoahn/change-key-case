@@ -1,0 +1,50 @@
+{
+  "name": "npm-init",
+  "version": "1.0.0",
+  "description": "Utility to perform deep change case of keys in an object",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanwoahn/change-key-case.git"
+  },
+  "keywords": [
+    "map",
+    "obj",
+    "object",
+    "key",
+    "keys",
+    "value",
+    "values",
+    "val",
+    "camelCase",
+    "snakecase",
+    "camelcase",
+    "snake_case",
+    "camel",
+    "case",
+    "snake",
+    "deep",
+    "resurse",
+    "recursive"
+  ],
+  "author": "Jonathan Woahn <jonathanwoahn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanwoahn/change-key-case/issues"
+  },
+  "homepage": "https://github.com/jonathanwoahn/change-key-case#readme",
+  "dependencies": {
+    "change-case": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
